@@ -1,0 +1,119 @@
+.section-a3-heading {
+    padding: 3% 0%;
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.section-a3-reviews {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review {
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+
+}
+
+.review:hover {
+    background-color: #add8e6;
+
+}
+
+
+.review-logo {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+    margin-top: 2%;
+    
+    box-sizing: border-box;
+}
+.ross-img {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 50%;
+    
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+.joey-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+.chandler-img {
+    width: 22vw;
+    height: 18vw;
+    border-radius: 50%;
+    
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+.review-text {
+    width: 24vw;
+    margin-left: 3vw;
+    margin-top: 4%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-style: unset;
+    color: #808080;
+}
+
+.review-reviewer {
+    margin-top: 4%;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #575757;
+}
+
+
+@media only screen and (max-width: 740px) {
+    .section-a3-reviews{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .review1,.review2,.review3{
+        position: relative;
+        left: 20%;
+        width: 60vw;
+        height: 80vh;
+        margin: 50px;
+    }
+    .review1-text, .review2-text, .review3-text{
+        margin-top: 200px;
+        width: 50vw;
+        font-size: 20px;
+    }
+    .ross-img{
+        width: 52vw;
+        height: 40vw;
+    }
+    .joey-img{
+        width: 52vw;
+        height: 40vw;
+    }
+    
+    .chandler-img{
+        width: 52vw;
+        height: 40vw;
+    }
+
+}

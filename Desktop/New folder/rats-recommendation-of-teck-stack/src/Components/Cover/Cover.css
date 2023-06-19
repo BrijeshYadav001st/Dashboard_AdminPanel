@@ -1,0 +1,38 @@
+.cover {
+    min-height: 91.3vh;
+    background-color: #DBEEF6;
+    
+}
+
+.products {
+    min-height: 100vh;
+    background-color: white;
+   
+}
+
+.reviews {
+    min-height: 100vh;
+    background-color: #DBEEF6;
+   
+}
+
+.faqs {
+    min-height: 100vh;
+    background-color: white;
+    
+}
+
+.footer {
+    min-height: 50vh;
+    background-color: #19191bfa;
+    color: azure;
+    
+
+}
+.copy {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1c1c;
+    color: azure;
+    font: 1em sans-serif;
+}

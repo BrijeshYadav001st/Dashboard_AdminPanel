@@ -1,0 +1,230 @@
+.section-a2-heading {
+    padding: 3% 0%;
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.tech-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.frontend-tech {
+    width: 30vw;
+    height: 75vh;
+    background-color: #add8e6;
+}
+
+.backend-tech {
+    width: 30vw;
+    height: 75vh;
+    background-color: #add8e6;
+}
+
+.full-stack-tech {
+    width: 30vw;
+    height: 75vh;
+    background-color: #add8e6;
+}
+
+.frontend-tech:hover,
+.backend-tech:hover,
+.full-stack-tech:hover {
+    background-color: #DBEEF6;
+}
+
+.tech-logo,
+.frontend-img,
+.backend-img,
+.fullstack-img {
+    width: 26vw;
+    height: 30vh;
+    margin: 10px 0 0 10px;
+}
+
+.tech-text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #575757;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tech-button {
+    display: flex;
+    justify-content: center;
+}
+.button{
+    padding: 13px;
+    background-color:#2177c7;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover {
+    background-color: #072038;
+    color: #DBEEF6;
+}
+.text{
+    padding: 15px;
+    color: #5c5c5c;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width: 1150px) {
+    
+    .frontend-tech{
+        height: 78vh;     
+    }
+    
+    .backend-tech{
+        height: 78vh;  
+
+    }
+    
+    .full-stack-tech{
+        height: 78vh; 
+    }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 3.7vw;
+        width: 10vw;
+
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 950px) {
+    
+    .frontend-tech{
+        height: 85vh;     
+    }
+    
+    .backend-tech{
+        height: 85vh;   
+
+    }
+    
+    .full-stack-tech{
+        height: 85vh; 
+    } 
+    .button{
+        padding: 8px;
+        background-color:#2177c7;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 5vw;
+        width: 10vw;
+
+    }
+      
+}
+@media only screen and (max-width: 800px) {
+    
+    .frontend-tech{
+        height: 85vh;     
+    }
+    
+    .backend-tech{
+        height: 85vh;   
+
+    }
+    
+    .full-stack-tech{
+        height: 85vh; 
+    }
+    .button{
+        padding: 8px;
+        background-color:#2177c7;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }  
+    
+}
+
+@media only screen and (max-width: 740px) {
+    .tech-section{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .frontend-tech{
+        position: relative;
+        left: 20%;
+        width: 60vw;
+        height: 85vh;
+        margin: 50px;
+    }
+    .frontend-img{
+        width: 55vw;
+    }
+    .backend-tech{
+        position: relative;
+        left: 20%;
+        width: 60vw;
+        height: 85vh;
+        margin: 50px;
+
+    }
+    .backend-img{
+        width: 55vw;
+    }
+    .full-stack-tech{
+        position: relative;
+        left: 20%;
+        width: 60vw;
+        height: 85vh;
+        margin: 50px;
+    }
+    .fullstack-img{
+        width: 55vw;
+    }
+    .section-a2-heading{
+        
+        display: flex;
+        text-align: center;
+        padding: 20px;
+    }
+    .text{
+        padding: 30px;
+        font-size: 17px;
+    }
+    .commingSoon{
+        background-color: #1a5d9c;
+        color: rgb(250, 240, 240);
+        height: 5.2vw;
+        width: 10vw;
+
+    }
+    
+    
+}
+
+
+
+.commingSoon{
+    z-index: 80;
+    position: absolute;
+}
+.commingSoonButton{
+    height: 1.5vw;
+    width: 9vw;
+    background-color: #1a5d9c;
+    color: rgb(250, 240, 240);
+    border-style: inherit;
+}

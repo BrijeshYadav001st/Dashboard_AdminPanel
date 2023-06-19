@@ -1,0 +1,203 @@
+.fullstackDashboard {
+    background-color: #add8e6;
+    height: 89.1vh;
+}
+
+
+.fullstackDashboardTitle {
+    text-align: center;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.fullstackDashboardContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-gap: 20px;
+    padding: 10px; */
+}
+
+.dashboard-fullstack-img {
+    width: 38vw;
+    border-radius: 50%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    object-fit: cover;
+    height: 28vw;
+}
+
+.fullstackDashboardContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15px;
+    margin-top: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fullstackmarkupLanguageSelect,
+.fullstackprogrammingSelect,
+.fullstackstylingSelect,
+.fullstacklibrarySelect {
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.fullstackmarkupLanguage,
+.fullstackstylingLanguage,
+.fullstackprogrammingLanguage,
+.fullstacklibrary {
+    background-color: white;
+    height: 8vh;
+    width: 22vw;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+.fullstackDashboardAnswer {
+    padding: 25px;
+}
+
+.fullstackAnswer {
+    width: 47vw;
+    height: 24vh;
+    padding-top: 20px;
+    background-color: white;
+    font: 1em sans-serif;
+    resize: none;
+    appearance: none;
+    outline: 0;
+}
+
+select {
+    display: block;
+    font-size: larger;
+    outline: 0;
+    overflow: hidden;
+}
+
+.fullstackgetTechStackBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fullstackgetTechStackButton {
+    height: 8vh;
+    width: 15vw;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fullstackgetTechStackButton:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .fullstackDashboardContainer {    
+        width: 100vw;
+    }
+    .fullstackgateTechStackBody{
+        height: 10vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    body{
+        width: 713px;
+    }
+    
+    .fullstackDashboardContainer {
+        display: flex;
+        background-color: #add8e6;
+        flex-direction: column-reverse;
+        width: 713px;
+
+    }
+
+    .fullstackDashboardContent {
+        display: flex;
+        flex-direction: column;
+        width: 713px;
+        justify-content: center;
+        align-items: center;
+        background-color: #add8e6;
+    }
+
+    .dashboard-fullstack-img {
+        width: 70vw;
+        border-radius: 50%;
+        margin-left: 100px;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 70vh;
+    }
+
+    .markupLanguageSelect,
+    .programmingSelect,
+    .stylingSelect,
+    .librarySelect {
+        padding: 20px;
+        border: none;
+    }
+
+    .markupLanguage,
+    .stylingLanguage,
+    .programmingLanguage,
+    .library {
+        background-color: white;
+        height: 8vh;
+        width: 40vw;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+    }
+
+    .fullstackgateTechStackBody {
+        width: 713px;
+    }
+
+    .fullstackgateTechStackButton {
+        height: 7.5vh;
+        width: 32vw;
+        
+    }
+    .fullstackDashboardAnswer {
+        padding: 45px;
+    }
+    
+    .fullstackAnswer {
+        width: 620px;
+        height: 40vh;
+        padding-top: 20px;
+        background-color: white;
+        font: 1em sans-serif;
+        resize: none;
+        appearance: none;
+        outline: 0;
+    }
+}

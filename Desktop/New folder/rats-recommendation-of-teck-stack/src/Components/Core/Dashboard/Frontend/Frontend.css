@@ -1,0 +1,278 @@
+.frontendDashboard {
+    background-color: #add8e6;
+    height: 90vh;
+}
+
+
+.frontendDashboardTitle {
+    text-align: center;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.frontendDashboardContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-gap: 20px; */
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+
+.dashboard-frontend-img {
+    width: 40vw;
+    border-radius: 50%;
+    margin-right: 3%;
+    box-sizing: border-box;
+    object-fit: cover;
+    height: 35vw;
+}
+
+.frontendDashboardContent {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 15px;
+    margin-top: 8px;
+    /* background-color: #21f321; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.markupLanguageSelect,
+.programmingSelect,
+.stylingSelect,
+.librarySelect {
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.markupLanguage,
+.stylingLanguage,
+.programmingLanguage,
+.library {
+    background-color: white;
+    height: 7vh;
+    width: 22vw;
+    padding: 8px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+select {
+    display: block;
+    font-size: larger;
+    outline: 0;
+    overflow: hidden;
+}
+
+.frontendgetTechStackBody {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 15px;
+    /* background-color: #21f321; */
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.frontendgetTechStackButton {
+   
+    height: 7vh;
+    width: 22vw;
+    margin-left: 12px;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frontendgetTechStackButton:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.frontendPrintButton {
+    height: 7vh;
+    width: 22vw;
+    margin-left: 10px;
+    font-size: medium;
+    background-color: #00ccff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontendPrintButton:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.frontendDashboardAnswer {
+    margin-left: 20px;
+
+}
+
+.frontendAnswer {
+    width: 44.7vw;
+    height: 52.5vh;
+    background-color: rgb(217, 225, 228);
+    resize: none;
+    appearance: none;
+    outline: 0;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 20%;
+    grid-column-gap: 10%;
+    grid-row-gap: 8%;
+    padding: 2%;
+    box-sizing: border-box;
+    line-height: 10px;
+}
+
+.frontendAnswerLabel{
+    font-weight: bold;
+}
+.frontendAnswerValue{
+    margin-left: 2%;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .frontendDashboardContainer {
+        width: 100vw;
+    }
+
+    .frontendgetTechStackBody {
+        height: 10vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+    body{
+        width: 713px;
+    }
+    
+    .frontendDashboardContainer {
+        display: flex;
+        background-color: #add8e6;
+        flex-direction: column-reverse;
+        width: 713px;
+
+    }
+
+    .frontendDashboardContent {
+        display: flex;
+        flex-direction: column;
+        width: 713px;
+        justify-content: center;
+        align-items: center;
+        background-color: #add8e6;
+    }
+
+    .dashboard-frontend-img {
+        width: 70vw;
+        border-radius: 50%;
+        margin-left: 100px;
+        box-sizing: border-box;
+        object-fit: cover;
+        height: 70vh;
+    }
+
+    .markupLanguageSelect,
+    .programmingSelect,
+    .stylingSelect,
+    .librarySelect {
+        padding: 20px;
+        border: none;
+    }
+
+    .markupLanguage,
+    .stylingLanguage,
+    .programmingLanguage,
+    .library {
+        background-color: white;
+        height: 8vh;
+        width: 40vw;
+        padding: 15px;
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+    }
+
+    .frontendgetTechStackBody {
+        width: 713px;
+    }
+
+    .frontendgetTechStackButton {
+        height: 7.5vh;
+        width: 32vw;
+
+    }
+
+    .frontendDashboardAnswer {
+        padding: 45px;
+    }
+
+    .frontendAnswer {
+        width: 620px;
+        height: 66vh;
+        padding-top: 20px;
+        background-color: white;
+        font: 1em sans-serif;
+        resize: none;
+        appearance: none;
+        outline: 0;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}
+
+.frontendAnswerLabel , .frontendAnswerValue{
+    margin-top: 20px;
+    box-sizing: border-box;
+    min-width: 100px;
+   
+
+}
+.frontendAnswerValue{
+    min-width: 200px;
+    
+}
+.frontendDashboardAnswer2{
+    width: 70vw;
+    padding: 30px;
+}
+
+.displayML {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #00ccff;
+}
+
+.displayML:hover{
+    background-color: #41d2f7;
+    cursor: pointer;
+    padding: 11px 21px;
+    box-sizing: border-box;
+}
