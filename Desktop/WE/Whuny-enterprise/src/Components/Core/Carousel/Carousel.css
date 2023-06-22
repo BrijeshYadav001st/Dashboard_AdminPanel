@@ -1,0 +1,87 @@
+.images{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.image{
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000;
+}
+
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000;
+}
+
+.slide{
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.fiveDots{
+    position: absolute;
+    top: 87%;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(230, 74, 74);
+    margin-right: 5px;
+}
+
+.dot:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.captionHeader{
+    z-index: 100000;
+    font-size: 4rem;
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    opacity: 0.6;
+    color: rgb(0, 0, 0);
+}
+
+.captionText{
+    z-index: 100000;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    opacity: 0.5;
+    color: rgb(255, 108, 108);
+    font-size: 1.5rem;
+}

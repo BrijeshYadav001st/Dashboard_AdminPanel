@@ -1,0 +1,32 @@
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 50px;  
+    background: linear-gradient(aliceblue, rgba(245, 147, 147, 0.5)); 
+}
+
+/* .about-us-right{
+    
+} */
+
+.about-us-img{
+    background-repeat: no-repeat;
+    border: 5px solid rgb(251, 114, 114);
+    border-radius: 50%;
+}
+.about-us-left{
+    font-size: 27px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 740px){
+    .about-us{
+      display: flex; 
+      flex-direction: column;
+    }
+    .about-us-img{
+        width: 350px;
+    }
+}

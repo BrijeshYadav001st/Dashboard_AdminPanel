@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+/* .home-navbar-body{
+    position: sticky;
+} */
+
+.section-front{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.front-header-img{
+    height: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.front-img{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .front-text, .front-img{
+    width: 50%;
+} */
+
+.front-text{
+    padding: 50px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.front-text-heading{
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 50px;
+    width: full;
+    height: 150px;  
+    
+}
+
+.front-text-subheading{
+    width: 641px;
+    height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    margin-top: 30px;
+    letter-spacing: 0.02em;
+    color: #929292;
+}
+
+.front-text-btns{
+    /* display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */ 
+    /* width: 450px; */
+    height: 70px;
+    margin-top: 100px;
+}
+.install-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202.3px;
+    height: 69.15px;
+    background: #E9204F;
+    box-shadow: 0px 4px 16px rgba(233, 32, 79, 0.2);
+    border-radius: 88px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.install-btn-logo{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.install-btn-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.install-btn-logo img {
+    width: 24px;
+    height: 24px;
+}
+.info-our-service{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 15px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.info-our-service-exp{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    
+}
+.faq-header{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+.copy {
+    text-align: center;
+    padding: 20px;
+    background-color: #1d1c1c;
+    color: rgb(183, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+}
+.pricing-parent{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1250px){
+
+    /* .section-front{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .front-img{
+        /* height: 40vh; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* background-position: center;
+        align-items: center; */
+    
+    /* .front-header-img{
+        background-repeat: no-repeat;
+        background-position: center;
+    } */
+
+}
+
+
+
+/* @media screen and (max-width: 1030px){
+
+    .front-text{
+        width: 100vw;
+    }
+  
+} */
+
+
+
+@media screen and (max-width: 900px){
+    .front-text{
+        width: 100vw;
+    }
+    .front-text,.front-text-heading,.front-text-subheading{
+        width: 80vw;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 740px){
+
+    .section-front{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ 
+    .front-text{
+        width: 100vw;
+    }
+    .front-text,.front-text-heading,.front-text-subheading{
+        padding-top: 30px;
+    }
+    .install-btn{
+        margin-top: 10px;    
+    }
+    .co-heading{
+        display: none;
+    }
+    .front-img{
+        margin-top: 20px;
+    }
+    .front-text-subheading , .co-heading{
+        display: none;
+    }
+    .front-header-img{
+        height: 250px;
+        width: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+/* @media screen and (max-width: 600px){
+    .install-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .install-btn-text{
+        font-size: 20px;
+        padding: 10px;
+    }
+} */
+
+
+/* 
+@media screen and (max-width: 480px){
+    .front-img{
+        height: 40vh;
+    }
+    
+} */
+
+
+
+/* @media screen and (max-width: 300px){
+
+    .section-front{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+    }
+
+    .front-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+} */

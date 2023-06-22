@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&family=Roboto+Condensed&display=swap');
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main-footer{
+    display: flex;
+    max-width: 100%;
+    background: linear-gradient(aliceblue, rgba(243, 91, 91, 0.5));
+}
+.top{
+    margin: 20px;
+    /* border: 1px rgb(136, 136, 136) solid; */
+}
+#map{
+    height: 100%;
+}
+
+
+.top, .form-wrap{ 
+    width: 50%;
+}
+
+.form-wrap{  
+    font-family: 'Montserrat', sans-serif; 
+}
+.form-wrap form{
+    /* border: 1px rgb(136, 136, 136) solid; */
+   padding: 20px;
+   margin-bottom: 0;
+   margin: 20px;
+   background-color: rgba(255, 255, 255, 01);
+}
+label{
+    display: block;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+ }
+ h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px ; 
+    width:100%;
+    
+}
+form input[type="email"],
+     form input[type="text"]{
+        
+        background-color: rgb(223, 223, 223);
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0px;
+        border: 1px solid rgb(223, 40, 40);
+        padding: 0.5em;
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+        height: 2.5rem;
+     }
+
+     
+
+     form select{
+        display: block;
+        width: 100%;
+        background-color: rgb(223, 223, 223);
+        box-sizing: border-box;
+        height: 2.5rem;
+        border: 1px solid rgb(254, 49, 49);
+        padding: 0.5em;
+        margin-bottom: 1rem;
+        font-size: 0.875rem;
+     }
+     
+     select:invalid{
+        color: #777;
+     }
+
+     form textarea{
+        display: block;
+        width: 100%;
+        background-color: rgb(223, 223, 223);
+        box-sizing: border-box;
+        height: 8.5rem;
+        border: 1px solid rgb(247, 40, 40);
+        padding: 1em;
+        margin-bottom: 1.5rem;
+        resize: none;
+     }
+     
+     .signup-btn{
+        
+        display: block;
+        width: 30%;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0.5rem;
+        background: #f80f0f;
+        border: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 16px;
+        
+     }
+
+     .signup-btn:hover {
+        background: #df0000;
+        cursor: pointer;
+     }
+
+     .services{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        font-family: 'Raleway', sans-serif;
+        padding: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        background: linear-gradient(rgb(25, 25, 25), rgb(20, 26, 37));
+        padding-left: 10%;
+        padding-right: 10%;
+        color: white;
+        padding-bottom: 3%;
+        font-size: 1.5rem;
+        
+     }
+
+     .offers-details{
+        align-items: center;
+        padding: 20px;
+     }
+     .conatact-number, .conatact-gmail{
+        padding: 20px;
+     }
+
+
+@media(max-width: 768px){
+
+    nav .logo{
+    width: 60px;
+    font-size: 20px;
+    }
+    nav .nav-links{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 80px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, 0.95);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+
+    .main-footer{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+   .form-wrap{
+       width: 100%; 
+    }
+
+    .top{
+        width:auto;
+        height: 50vh;
+    }
+    .form-wrap form{ 
+       margin-bottom: 0;
+       border-bottom: none;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

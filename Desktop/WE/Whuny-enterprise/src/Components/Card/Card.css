@@ -1,0 +1,120 @@
+.section-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 99px 100px 99px;
+    
+}
+
+.single-click-install, .direct-contact-numbers, .free-trial{
+    width: 340px;
+    height: 470px;
+    background-color: #000000;
+    border-radius: 16px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+.single-click-install:hover, .direct-contact-numbers:hover, .free-trial:hover{
+    transform-origin: 20s;
+    box-shadow:  10px 10px 10px 10px rgb(0, 0, 0);
+}
+
+.single-click-install-logo, .direct-contact-numbers-logo, .free-trial-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.web-dev-img , .app-dev-img, .digital-market-img{
+    width: 70px;
+    height: 70px;
+}
+
+.single-click-install-header, .direct-contact-numbers-header, .free-trial-header{
+    color: #fff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.single-click-install-body, .direct-contact-numbers-body, .free-trial-body{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-top: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.single-click-install-btn, .direct-contact-numbers-btn, .free-trial-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10.3216px;
+    position: relative;
+    width: 202px;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin-top: 92px;
+    margin-left: 50px;
+}
+@media screen and (max-width: 1250px){
+    .section-info,.pricing-body{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+
+    }
+    .single-click-install, .direct-contact-numbers, .free-trial,.pricing-body-box{
+        margin-top: 80px;
+    }
+    .section-front{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+@media screen and (max-width: 1030px){
+  
+}
+
+
+
+@media screen and (max-width: 900px){
+
+    
+}
+
+@media screen and (max-width: 740px){
+    .section-info,.pricing-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 600px){
+   
+}
+
+
+
+@media screen and (max-width: 480px){
+
+}
+
+
+
+@media screen and (max-width: 300px){
+
+}

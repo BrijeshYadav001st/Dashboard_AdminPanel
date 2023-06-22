@@ -1,0 +1,159 @@
+
+.pricing-heading{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pricing-header {
+    background-color: rgb(235, 45, 76);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 17px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    min-width: 360px;
+  }
+.pricing-sub-heading{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+    text-align: center;
+    color: #323D47;
+    text-align: center;
+}
+.pricing-body-start-up , .pricing-body-growth , .pricing-body-business {
+    background-color: #f8deea;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    margin-top: 10px;
+   
+}
+
+.pricing-body-box{
+    width: 360px;
+    padding: 20px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pricing-body-box-title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
+.pricing-body-box-price{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.box-price{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #E9204F;
+}
+
+.pricing-body-box-btn{
+    padding: 16px 0px;
+    border: 1px solid black;
+    border-radius: 37px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.pricing-body-box-list{
+    margin-bottom: 10px;
+}
+
+.pricing-body-box-list-icon{
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+.pricing-body-box-list-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 120%;
+}
+
+.pricing-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 99px 100px 99px;
+}
+
+.others-pricing-header{
+    background-color: rgb(235, 45, 76);
+    padding: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    min-width: 360px;
+}
+.others-pricing-body-box{
+    width: 360px;
+    padding: 20px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.first-others-pricing-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 99px 50px 99px;
+}
+
+.second-others-pricing-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 99px 50px 99px;
+}
+@media screen and (max-width: 1250px){
+    .section-info,.pricing-body , .second-others-pricing-body , .first-others-pricing-body{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+
+    }
+}
+
+@media screen and (min-width:740px) {
+    .manu-bar-button{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .section-info,.pricing-body , .second-others-pricing-body , .first-others-pricing-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-header{
+        margin-bottom: 0;
+    }
+  
+}

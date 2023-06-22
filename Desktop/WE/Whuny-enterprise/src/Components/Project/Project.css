@@ -1,0 +1,11 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 4.5em sans-serif;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

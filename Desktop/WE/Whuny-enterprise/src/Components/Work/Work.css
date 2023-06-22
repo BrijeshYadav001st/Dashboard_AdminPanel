@@ -1,0 +1,215 @@
+
+.how-it-works-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202.3px;
+    height: 69.15px;  
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.how-it-works-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #171515;
+    background-color: #E9204F;
+}
+
+.how-it-works-heading, .pricing-heading{
+    font-size: 36px;
+    text-align: center;
+}
+
+.how-it-works-body{
+    margin: 70px 150px 100px 150px;
+    /* margin: 150px; */
+    padding: 100px;
+    box-sizing: border-box;
+    height: 905px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.how-it-works-body-left-top-text{
+    background-color: #E9204F;
+    border-radius: 20px;
+    padding: 20px;
+}
+.how-it-works-body-left-bottom-text{
+    background-color: #E9204F;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.how-it-works-body-right-text{
+    background-color: #E9204F;
+    border-radius: 20px;
+    padding: 20px; 
+}
+
+.how-it-works-body-left{
+    height: 763px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.how-it-works-body-text-second{
+    color: #f9f5f5;
+}
+.how-it-works-body-left-heading , .how-it-works-body-left-heading-second{
+    /* width: 258px; */
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.how-it-works-body-text{
+    width: 258px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #f9f5f5;
+}
+
+.how-it-works-body-line{
+    height: 763px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 58px 0px; */
+    box-sizing: border-box;
+    /* display: none; */
+}
+
+.how-it-works-body-line-circle{
+    width: 27px;
+    height: 27px;
+    background-color: #E9204F;
+    border-radius: 50%;
+}
+
+.how-it-works-body-line-straight{
+    width: 8px;
+    height: 277px;
+    background-color: #E9204F;
+
+}
+
+.how-it-works-body-right{
+    height: 763px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media screen and (max-width: 1250px){
+
+}
+
+
+
+@media screen and (max-width: 1030px){
+
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .how-it-works-body-line{
+        display: none;
+    }
+}
+
+
+
+/* @media screen and (max-width: 900px){
+
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-works-body-right,.how-it-works-body-left{
+        margin-left: 5rem;
+        position: absolute;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 740px){
+
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-works-body-right,.how-it-works-body-left{
+        margin-right: 0rem;
+        position: absolute;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-works-body-right,.how-it-works-body-left{
+        margin-right: 15rem;
+        position: absolute;
+    }
+ 
+}
+
+
+
+@media screen and (max-width: 480px){
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-works-body-right,.how-it-works-body-left{
+        margin-right: 20rem;
+        position: absolute;
+    }
+ 
+    
+}
+
+
+
+@media screen and (max-width: 300px){
+ 
+    .how-it-works-body{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .how-it-works-body-right,.how-it-works-body-left{
+        margin-right: 28rem;
+        position: absolute;
+    }
+   
+} */
